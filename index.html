@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Smart Vehicle Breakdown Assistance</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+<h1>Smart Vehicle Breakdown Assistance</h1>
+<p>Find nearby mechanics and emergency help instantly</p>
+</header>
+
+<div class="main">
+
+<!-- LOCATION -->
+<div class="card">
+<h2>Your Current Location</h2>
+<button class="btn" onclick="getLocation()">Get My Location</button>
+<p id="locationText"></p>
+</div>
+
+<!-- NEARBY MAP -->
+<div class="card">
+<h2>Nearby Mechanical Shops</h2>
+<button class="btn" onclick="openNearbyMap()">Show Nearby Mechanics on Map</button>
+</div>
+
+<!-- MECHANIC SEARCH -->
+<div class="card">
+<h2>Nearby Mechanic Numbers</h2>
+
+<input type="text" id="placeSearch" placeholder="Enter location (Example: Hyderabad)">
+<button class="btn" onclick="searchMechanics()">Search Mechanics</button>
+
+<ul class="list" id="mechanicList">
+<li>Ravi Mechanics – 9876543210</li>
+<li>Balaji Auto Works – 9123456780</li>
+<li>SR Bike Point – 9988776655</li>
+<li>City Car Care – 9090909090</li>
+</ul>
+
+</div>
+
+<!-- EMERGENCY -->
+<div class="card">
+<h2>Emergency Numbers</h2>
+<p>Police: 100</p>
+<p>Ambulance: 108</p>
+<p>Highway Assistance: 1033</p>
+</div>
+
+<!-- AI ASSISTANT -->
+<div class="card">
+<h2>AI Vehicle Assistant</h2>
+
+<div id="chatBox">
+<p>AI: Hello! Describe your vehicle problem.</p>
+</div>
+
+<input type="text" id="userInput" placeholder="Example: engine not starting">
+<button class="btn" onclick="askAI()">Ask AI</button>
+
+</div>
+
+</div>
+
+<footer>
+© 2026 Smart Roadside Assistance Project
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

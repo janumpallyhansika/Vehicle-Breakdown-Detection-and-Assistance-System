@@ -1,0 +1,68 @@
+body{
+font-family: Arial;
+margin:0;
+background-color:#e6f2ff;
+}
+
+/* HEADER */
+.header{
+background-color:#1e3a8a;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+/* MAIN CONTAINER */
+.main{
+width:80%;
+margin:auto;
+padding:20px;
+}
+
+/* CARDS */
+.card{
+background:#f0f7ff;
+padding:20px;
+margin-bottom:20px;
+border:1px solid #b3d1ff;
+border-radius:8px;
+}
+
+/* BUTTONS */
+.btn{
+background-color:#2563eb;
+color:white;
+padding:10px 15px;
+border:none;
+cursor:pointer;
+border-radius:5px;
+}
+
+.btn:hover{
+background-color:#1e40af;
+}
+
+/* INPUT FIELD */
+input{
+width:100%;
+padding:10px;
+margin-bottom:10px;
+border:1px solid #b3d1ff;
+border-radius:5px;
+}
+
+/* CHAT BOX */
+#chatBox{
+background:#dbeafe;
+padding:10px;
+margin-bottom:10px;
+border-radius:5px;
+}
+
+/* FOOTER */
+footer{
+text-align:center;
+padding:10px;
+background:#1e3a8a;
+color:white;
+}
